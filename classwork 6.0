@@ -1,0 +1,14 @@
+public class BaiscArray {
+        final static int LIMIT = 15;
+        final static int MULTIPLE = 10;
+        public static void main (String[]args)
+        {
+            int[] list = new int[LIMIT];
+            for(int index = 0; index < LIMIT; index++)
+            list[index] = index * MULTIPLE;
+            for(int index = 0; index < LIMIT; index++)
+            System.out.println(list[index] + "");
+            System.out.println();
+        }
+        // christine :D
+}
